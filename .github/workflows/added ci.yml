@@ -1,0 +1,13 @@
+name: Hello Python
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello from Python
+        run: python -c "print('Hello, World!')"
+
