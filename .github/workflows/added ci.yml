@@ -7,6 +7,6 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      - name: Say Hello from Python
-        run: python -c "print('Hello, World!')"
+      - name: Build and push Docker images
+  uses: docker/build-push-action@v6.16.0
 
