@@ -1,4 +1,4 @@
-name: Hello Python
+name: workflow demo
 on:
   push:
     branches: [ "main" ]
